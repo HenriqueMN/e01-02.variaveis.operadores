@@ -13,17 +13,17 @@ public class Exercicio01 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		// Recebimento dos inputs
+		// Leitura dos inputs
 		System.out.print("Digite o salário: ");
 		salario = input.nextFloat();
 		
-		System.out.print("\nDigite o abono: ");
+		System.out.print("Digite o abono: ");
 		abono = input.nextFloat();
 		
-		// Cálculo do novo salario
+		// Cálculo do novo salário
 		novoSalario = salario + abono;
 		
-		// Exibe o novo salario
+		// Exibe o novo salário
 		System.out.println("\nNovo salário: " + novoSalario);
 
 	}
